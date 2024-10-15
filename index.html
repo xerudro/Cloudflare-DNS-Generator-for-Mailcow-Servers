@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cloudflare DNS Template Generator</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"> </head> <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-12">
+                <div class="form-group">
+                    <label>Domain</label>
+                    <input type="text" id="DOMAIN" placeholder="domain.ltd" class="form-control">
+                </div>
+            </div>
+            <div class="col-lg-6 col-12">
+                <div class="form-group">
+                    <label>Server CNAME</label>
+                    <input type="text" id="SERVER" placeholder="stargate.adjans.com.tr" class="form-control">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-12">
+                <div class="form-group">
+                    <button type="button" class="btn btn-success" id="save">Download TXT</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <script src="filesaver.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
